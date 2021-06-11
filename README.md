@@ -1,11 +1,11 @@
 # Seminar “Foundations of Data Science for Social Scientists”
 University of Zurich, Spring/Summer, 2021
 
-Lecturer: Prof. Dr. Karsten Donnay (donnay@ipz.uzh.ch)
-Assistant: Marcel Blum (marcel.blum@uzh.ch)
-Contact: donnay@ipz.uzh.ch and OLAT
-Office Hours: By appointment (online)
-Course number: 615d539a Seminar
+Lecturer: Prof. Dr. Karsten Donnay (donnay@ipz.uzh.ch)  
+Assistant: Marcel Blum (marcel.blum@uzh.ch)  
+Contact: donnay@ipz.uzh.ch and [OLAT](https://lms.uzh.ch/url/RepositoryEntry/16964059152)  
+Office Hours: By appointment (online)  
+Course number: 615d539a Seminar  
 
 ---
 
@@ -38,24 +38,24 @@ Email addresses of the instructors and all participants in the course are to be 
 
 ### Part 1: Foundations
 
-_Day 1: Mon. 14.06.2021_
-10:15 – 12:00 Lecture 1: Information Coding & Data Structures (Zoom)
-14:00 – 15:45 Exercise Session 1 (Zoom)
+_Day 1: Mon. 14.06.2021_  
+10:15 – 12:00 Lecture 1: Information Coding & Data Structures ([SWITCHcast](https://lms.uzh.ch/url/RepositoryEntry/16964059152))  
+14:00 – 15:45 Exercise Session 1 ([Zoom](https://uzh.zoom.us/j/91462284423?pwd=Y21kakQ5elRrc3Y0S3JTQ3diNDZJQT09))  
 
-_Day 2: Tue. 15.06.2021_
-10:15 – 12:00 Lecture 2: Programming & Algorithms (SWITCHcast)
-14:00 – 15:45 Exercise Session 2 (Zoom)
+_Day 2: Tue. 15.06.2021_  
+10:15 – 12:00 Lecture 2: Programming & Algorithms ([SWITCHcast](https://lms.uzh.ch/url/RepositoryEntry/16964059152))  
+14:00 – 15:45 Exercise Session 2 ([Zoom](https://uzh.zoom.us/j/91462284423?pwd=Y21kakQ5elRrc3Y0S3JTQ3diNDZJQT09))  
 
-_Day 3: Wed. 16.06.2021_
-10:15 – 12:00 Lecture 3: Complexity & Efficiency (SWITCHcast)
-14:00 – 15:45 Exercise Session 3 (Zoom)
+_Day 3: Wed. 16.06.2021_  
+10:15 – 12:00 Lecture 3: Complexity & Efficiency ([SWITCHcast](https://lms.uzh.ch/url/RepositoryEntry/16964059152))  
+14:00 – 15:45 Exercise Session 3 ([Zoom](https://uzh.zoom.us/j/91462284423?pwd=Y21kakQ5elRrc3Y0S3JTQ3diNDZJQT09))  
 
 ### Part 2: Applications
 
-_Day 4: Thu. 17.06.2021_
-10:15 – 12:00 Lecture 4: Data Collection & Quality (SWITCHcast)
-14:00 – 15:45 Exercise Session 4 (Zoom)
+_Day 4: Thu. 17.06.2021_  
+10:15 – 12:00 Lecture 4: Data Collection & Quality ([SWITCHcast](https://lms.uzh.ch/url/RepositoryEntry/16964059152))  
+14:00 – 15:45 Exercise Session 4 ([Zoom](https://uzh.zoom.us/j/91462284423?pwd=Y21kakQ5elRrc3Y0S3JTQ3diNDZJQT09))  
 
-_Day 5: Fri. 18.06.2021_
-10:15 – 12:00 Lecture 5: Research on Digital Media (SWITCHcast)
-14:00 – 15:45 Exercise Session 5 (Zoom)
+_Day 5: Fri. 18.06.2021_  
+10:15 – 12:00 Lecture 5: Research on Digital Media ([SWITCHcast](https://lms.uzh.ch/url/RepositoryEntry/16964059152))  
+14:00 – 15:45 Exercise Session 5 ([Zoom](https://uzh.zoom.us/j/91462284423?pwd=Y21kakQ5elRrc3Y0S3JTQ3diNDZJQT09))  
