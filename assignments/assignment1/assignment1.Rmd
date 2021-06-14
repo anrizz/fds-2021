@@ -1,0 +1,62 @@
+---
+title: 'Assigment 1'
+author: "Karsten Donnay"
+date: "14.06.2021"
+output:
+  pdf_document:
+    toc: yes
+  html_document:
+    code_folding: hide
+    fig_height: 6
+    highlight: tango
+    theme: spacelab
+    toc: yes
+    toc_float:
+      collapsed: no
+      smooth_scroll: yes
+editor_options:
+  chunk_output_type: console
+---
+
+
+
+```{r knitr_init, echo=TRUE, cache=FALSE, warning=FALSE}
+library(knitr)
+
+### Global options
+options(max.print="150")
+opts_chunk$set(echo=FALSE,
+	             cache=FALSE,
+               prompt=FALSE,
+               tidy=TRUE,
+               comment=NA,
+               message=FALSE,
+               warning=FALSE)
+opts_knit$set(width=75)
+rm(list = ls())
+```
+
+# Assignment 1: RMarkdown
+
+* Change the author of this file to your name.
+* Change the settings of this file so that the code is by shown by default. 
+
+
+# Assignment 2: Import dataset
+
+In the data folder of this the first exercise session ("data/") you will find two datasets (twitter.Rda, guardian.Rda). These two datasets contain information retrieved from the respective APIs of the two platforms in 2020:
+
+ * **guardian.Rda**: articles of The Guardian obtained via its API. Contains information about an article, its author and its content.
+ * **twitter.Rda**: Tweets published by the account 'guardian' on Twitter. These Tweets often represent links to articles of The Guardian and contain information about the reactions to those articles (such as how many people favorited these statuses).
+ 
+**Assignment:** Find a suitable variable to merge these two datasets on and then create a combined dataset that contains information about both the article characteristics (from the Guardian API) and the Twitter characteristics. Then use the **merge()** command to merge the two datasets. Report how many observations you lose from each original dataset.
+
+
+# Assignment 3: Insights
+
+In the combined data you just generated in the previous question, please answer the following questions. (Note: If you could not solve the prior assignments, you may here continue with the "combined.Rda" file from the "data/" folder in the first exercise.)
+
+ * Does the page number where the article occurred in the Guardian newspaper have a positive or negative correlation to the number of retweets an article received?
+ * Do articles about music in our sample data get more or less frequently liked ("favorited") than sport articles?
+ 
+ 
