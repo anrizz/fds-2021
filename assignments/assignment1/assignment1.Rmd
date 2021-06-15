@@ -1,6 +1,6 @@
 ---
 title: 'Assigment 1'
-author: "Karsten Donnay"
+author: "Andri Rizzi"
 date: "14.06.2021"
 output:
   pdf_document:
@@ -25,7 +25,7 @@ library(knitr)
 
 ### Global options
 options(max.print="150")
-opts_chunk$set(echo=FALSE,
+opts_chunk$set(echo=TRUE,
 	             cache=FALSE,
                prompt=FALSE,
                tidy=TRUE,
@@ -39,7 +39,10 @@ rm(list = ls())
 # Assignment 1: RMarkdown
 
 * Change the author of this file to your name.
+- To solve that I just had to replace the name. 
+
 * Change the settings of this file so that the code is by shown by default. 
+- I had to change echo=False in the chunk above to echo=TRUE
 
 
 # Assignment 2: Import dataset
@@ -51,6 +54,36 @@ In the data folder of this the first exercise session ("data/") you will find tw
  
 **Assignment:** Find a suitable variable to merge these two datasets on and then create a combined dataset that contains information about both the article characteristics (from the Guardian API) and the Twitter characteristics. Then use the **merge()** command to merge the two datasets. Report how many observations you lose from each original dataset.
 
+First Step: Load datasets into R
+
+```{r,echo=TRUE}
+rm(list = ls())
+load("~/Desktop/Unterlagen/1 - Universität/2 - Master /1 - Politikwissenschaft/2 - Semester/Foundations of Data Science for Social Scientists/excersises/1/guardian.Rda")
+head(guardian)
+dim(guardian)
+
+rm(list = ls())
+load("~/Desktop/Unterlagen/1 - Universität/2 - Master /1 - Politikwissenschaft/2 - Semester/Foundations of Data Science for Social Scientists/excersises/1/twitter.Rda")
+head(twitter)
+dim(twitter)
+```
+
+2. Step: Get overview 
+```{r,echo=TRUE}
+str(guardian)
+str(twitter)
+```
+
+3. Step Merge the two variables. I concluded that it would be best to merge the datasets on the basis of the URL. In the dataset guardian this would be the variable link and in the dataset twitter link as well. 
+
+```{r,echo=TRUE}
+
+
+merged <- merge(guardian, twitter, by = "link", all = FALSE)
+plot(guardian$link ~ twitter$link, xlab = "link", ylab = "link")
+str(merged)
+```
+To answer the last question we only have to substract the number of the observations from the merged datasetz with the others. Therefore we lost (3493-2498=995) 995 Observations from the guardian-dataset and (4077-2498=1579) 1579 observations from the twitter-dataset. This simple calculations is feasible since we made sure that only observations with the same link in both datasets are  in the merged-version
 
 # Assignment 3: Insights
 
